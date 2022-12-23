@@ -19,7 +19,7 @@ end
 return UrlPath
 end
 
-if detectgame() ~= nil then loadstring(game:HttpGet("https://raw.githubusercontent.com/TeaXHub/DarkzHub/main/" .. detectgame() .. ".lua"))()
+if detectgame() ~= nil then loadstring(game:HttpGet("https://raw.githubusercontent.com/Shxxnn/darkzscripts/main/" .. detectgame() .. ".lua"))()
 else
     return print('Game is not supported')
 end
