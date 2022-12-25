@@ -1,11 +1,27 @@
 _G.Supported = {
-    [8750997647] = {
-        Game = "Tapping Legends X",
-        Path = "TappingLegendsX"
+    [1444297073] = {
+        Game = "Shortest Answer Wins",
+        Path = "ShortestAnswerWins"
     },
-    [9551640993] = {
-        Game = "Mining Simulator 2",
-        Path = "MiningSimulator2"
+    [4009558569] = {
+        Game = "Type or Die",
+        Path = "TypeOrDie"
+    },
+    [3681669024] = {
+        Game = "Longest Answer Wins",
+        Path = "LongestAnswerWins"
+    },
+    [22232358] = {
+        Game = "Super Simon Says",
+        Path = "SuperSimonSays"
+    },
+    [4086464379] = {
+        Game = "Dunking Race",
+        Path = "DunkingRace"
+    },
+    [3970304244] = {
+        Game = "Goal Clicker",
+        Path = "GoalClicker"
     },
 }
 
@@ -19,7 +35,7 @@ end
 return UrlPath
 end
 
-if detectgame() ~= nil then loadstring(game:HttpGet("https://raw.githubusercontent.com/Shxxnn/darkzscripts/main/" .. detectgame() .. ".lua"))()
+if detectgame() ~= nil then loadstring(game:HttpGet("https://raw.githubusercontent.com/Shxxnn/darkzscripts/main/Supported/" .. detectgame() .. ".lua"))()
 else
     return print('Game is not supported')
 end
