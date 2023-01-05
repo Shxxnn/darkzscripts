@@ -46,6 +46,10 @@ _G.Supported = {
         Game = "Strong Katana Simulator",
         Path = "StrongKatanaSimulator"
     },
+    [2035583477] = {
+        Game = "Tower Simulator",
+        Path = "TowerSimulator"
+    },
 }
 
 local function detectgame()
