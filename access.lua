@@ -35,6 +35,10 @@ _G.Supported = {
         Game = "KAT!",
         Path = "KAT!"
     },
+    [4123984621] = {
+        Game = "🏆 ProTube Race Clicker",
+        Path = "ProTubeRaceClicker"
+    },
 }
 
 local function detectgame()
