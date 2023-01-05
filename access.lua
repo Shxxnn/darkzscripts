@@ -39,6 +39,10 @@ _G.Supported = {
         Game = "🏆 ProTube Race Clicker",
         Path = "ProTubeRaceClicker"
     },
+    [4176724365] = {
+        Game = "+1 Blocks Every Second",
+        Path = "+1BlocksEverySecond"
+    },
 }
 
 local function detectgame()
