@@ -42,6 +42,7 @@ _G.Supported = {
     [4176724365] = {
         Game = "+1 Blocks Every Second",
         Path = "+1BlocksEverySecond"
+    },
     [2314144481] = {
         Game = "Strong Katana Simulator",
         Path = "StrongKatanaSimulator"
@@ -53,7 +54,7 @@ _G.Supported = {
     [3882062045] = {
         Game = "Find The Simpsons",
         Path = "FindTheSimpsons"
-    },
+    }
 }
 
 local function detectgame()
