@@ -1,1 +1,1 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/awetniawtawuien/asdzx/main/Protected_9026646847855518.lua'))()
+
